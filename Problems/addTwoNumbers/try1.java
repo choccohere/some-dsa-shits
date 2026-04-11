@@ -1,24 +1,5 @@
 package Problems.addTwoNumbers;
 
-class ListNode {
-
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-
-}
-
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         long a, b, res;
@@ -31,7 +12,6 @@ class Solution {
                 l1 = l1.next;
             }
             if (l2 != null) {
-
                 b = b + l2.val * mul;
                 l2 = l2.next;
             }

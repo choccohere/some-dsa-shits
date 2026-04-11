@@ -1,16 +1,9 @@
 package Problems.addTwoNumbers;
 
 import java.math.BigInteger;
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode() {}
-    ListNode(int val) { this.val = val; }
-    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 
- }
+
 public class try2 {
-
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
@@ -61,5 +54,3 @@ public class try2 {
         return head;
     }
 }
-    
-
