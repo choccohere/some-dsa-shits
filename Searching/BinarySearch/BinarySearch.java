@@ -24,9 +24,8 @@ public class BinarySearch {
     public static int binarySearch(int[] nums, int target) {
         int start = 0;
         int end = nums.length - 1;
-        int mid;
         while (start <= end) {
-            mid = (start + end) / 2;
+            int mid = (start + end) / 2;
 
             if (target == nums[mid]) {
                 return mid;
