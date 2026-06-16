@@ -41,8 +41,8 @@ public class RAS {
     }
 
     public static void main(String[] args) {
-        int[] x = {44,53,57,67,72,92,11,22,32,35,40};
-        int target = search(x, 35);
+        int[] x = {44,53,57,67,72,92,22,32,35,40};
+        int target = search(x, 22);
         System.out.println(target);
     }
     
