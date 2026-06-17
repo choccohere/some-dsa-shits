@@ -11,25 +11,40 @@ public class ArrayLists {
         list.add("C");
         list.add("D");
 
-        Iterator<String> it = list.iterator();
-
-        while (it.hasNext()) {
-            System.out.print(it.next() + " \n");
-
+        for( String i : list){
+            System.out.print("[" + i + "]");
         }
-        Collections.sort(list);
+        System.out.println();
+        System.out.println(list.size());
 
-        // using for each
-
-        list.forEach(i -> {
-            System.out.println( i + " ");
-        });
-
-        ListIterator<String> l = list.listIterator();
-
-        while(l.hasNext()){
-            System.out.println(l.next() + " ");
+        System.out.println(list.removeLast());
+        System.out.println(list);
+        for( String i : list){
+            System.out.print("[" + i + "]");
         }
+        System.out.println();
+        System.out.println(list.getFirst());
+        System.out.println(list.getLast());
+
+        // Iterator<String> it = list.iterator();
+
+    //     while (it.hasNext()) {
+    //         System.out.print(it.next() + " \n");
+
+    //     }
+    //     Collections.sort(list);
+
+    //     // using for each
+
+    //     list.forEach(i -> {
+    //         System.out.println( i + " ");
+    //     });
+
+    //     ListIterator<String> l = list.listIterator();
+
+    //     while(l.hasNext()){
+    //         System.out.println(l ..next() + " ");
+    //     }
         
     }
 
