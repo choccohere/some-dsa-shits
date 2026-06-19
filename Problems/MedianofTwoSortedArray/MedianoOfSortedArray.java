@@ -3,7 +3,7 @@ package Problems.MedianofTwoSortedArray;
 // Problem number 4
 // Method -> brute force 
 
-public class try1 {
+public class MedianoOfSortedArray {
     public static void main(String[] args) {
         int nums1[] = { 1, 2, 3, 4, 5 };
         int nums2[] = { 4, 5, 6, 7, 8 };
